@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+  scroll-behavior: auto !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: 'Lora', serif;
+}
+
+
+.btn-primary {
+  background-color: #543a36;
+  border-color: #543a36;
+}
+
+.btn-primary:active {
+  background-color: #543a36 !important;
+  border-color: #543a36 !important;
+}
+
+.btn-primary:hover {
+  background-color: #5d4e4c;
+  border-color: #5d4e4c;
+}
+
+.text-primary {
+  color: #543a36 !important;
+}
+
+.callout-img {
+  max-width: 300px;
+  margin-bottom: 3rem;
+}
+
+.bg-pinkish {
+  background-color: #fce6e7 !important;
+}
