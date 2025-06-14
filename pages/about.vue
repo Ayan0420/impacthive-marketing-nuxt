@@ -55,7 +55,7 @@
             <p class="display-6 mb-4">
                 Let’s build something powerful together.
             </p>
-            <button class="btn btn-primary rounded-pill px-4 fs-4">Get in touch</button>
+            <router-link to="/contact" class="btn btn-primary rounded-pill px-4 fs-4">Get in touch</router-link>
         </div>
     </main>
     
@@ -72,7 +72,7 @@
 #about-banner {
     min-height: 400px;
     background-image: 
-        linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
+        linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 218, 218, 0.8)), 
         url(@/assets/images-optimized/about-1.webp);
     background-size: cover;
     background-position: center;

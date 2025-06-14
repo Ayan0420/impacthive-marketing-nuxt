@@ -28,6 +28,11 @@ body {
   border-color: #5d4e4c;
 }
 
+.btn-primary:disabled {
+  background-color: #b39894 !important;
+  border-color: #b39894 !important;
+}
+
 .text-primary {
   color: #543a36 !important;
 }
@@ -40,3 +45,4 @@ body {
 .bg-pinkish {
   background-color: #fce6e7 !important;
 }
+

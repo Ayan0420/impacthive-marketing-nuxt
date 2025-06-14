@@ -6,7 +6,7 @@
                     <div class="col-md-6 d-flex flex-column justify-content-center gap-3 py-5">
                         <h1 class="fw-bold text-dark display-4">Empowering Small Businesses with Bold Digital Impact</h1>
                         <p class="fs-5">We help small business owners across the United Kingdom grow through powerful social media management and strategic website design.</p>
-                        <div class="btn btn-primary btn-lg rounded-pill px-4 align-self-start">Get in touch for a FREE consultation.</div>
+                        <RouterLink to="/contact" class="btn btn-primary btn-lg rounded-pill px-4 align-self-start">Get in touch for a FREE consultation.</RouterLink>
                     </div>
                 </div>
             </div>
@@ -112,7 +112,7 @@
             <img src="@/assets/images-optimized/collab.svg" alt="web design" class="img-fluid callout-img">
             <h1 class="text-center text-light fw-bold">Let’s create something that connects!</h1>
             <br>
-            <button class="btn btn-outline-light fs-3 rounded-pill px-5 shadow">Start your digital journey with us today.</button>
+            <router-link to="/contact" class="btn btn-outline-light fs-3 rounded-pill px-5 shadow">Start your digital journey with us today.</router-link>
         </section>
     </main>
 </template>

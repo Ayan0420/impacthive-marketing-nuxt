@@ -15,13 +15,15 @@
                     <h1 class="text-center mb-3">General Questions</h1>
                     <FaqAccordion :faqItems="generalFAQItems" itemSource="general" />
                 </div>
-                <div class="mb-5">
-                    <h1 class="text-center mb-3">Social Media Management</h1>
-                    <FaqAccordion :faqItems="smmFAQItems" itemSource="smm" />
-                </div>
-                <div class="mb-5">
-                    <h1 class="text-center mb-3">Website Development</h1>
-                    <FaqAccordion :faqItems="webDevFAQItems" itemSource="webdev" />
+                <div class="row">
+                    <div class="col mb-5">
+                        <h1 class="text-center mb-3">Social Media Management</h1>
+                        <FaqAccordion :faqItems="smmFAQItems" itemSource="smm" />
+                    </div>
+                    <div class="col mb-5">
+                        <h1 class="text-center mb-3">Website Development</h1>
+                        <FaqAccordion :faqItems="webDevFAQItems" itemSource="webdev" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -33,7 +35,9 @@
                 class="img-fluid callout-img"
             />
             <p class="display-6 mb-4">Have more questions?</p>
-            <button class="btn btn-primary rounded-pill px-4 fs-4">Get in touch</button>
+            <router-link to="/contact" class="btn btn-primary rounded-pill px-4 fs-4"
+                >Get in touch</router-link
+            >
         </div>
     </main>
 </template>
@@ -129,7 +133,7 @@ const webDevFAQItems: FaqItem[] = [
 <style scoped>
 #faq-banner {
     min-height: 400px;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 218, 218, 0.8)),
         url(@/assets/images-optimized/about-1.webp);
     background-size: cover;
     background-position: center;

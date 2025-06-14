@@ -57,7 +57,7 @@
                                 <li>1-to-1 support from Charlotte</li>
                             </ul>
                             <router-link
-                                to="/services"
+                                to="/contact"
                                 class="btn btn-outline-dark rounded-pill px-4 py-2 align-self-start"
                                 >I'M INTERESTED</router-link
                             >
@@ -92,7 +92,7 @@
                                 <li>Page growth focus</li>
                             </ul>
                             <router-link
-                                to="/services"
+                                to="/contact"
                                 class="btn btn-outline-dark rounded-pill px-4 py-2 align-self-start"
                                 >I'M INTERESTED</router-link
                             >
@@ -126,7 +126,7 @@
                                 <li>Page growth strategy</li>
                             </ul>
                             <router-link
-                                to="/services"
+                                to="/contact"
                                 class="btn btn-outline-dark rounded-pill px-4 py-2 align-self-start"
                                 >I'M INTERESTED</router-link
                             >
@@ -187,7 +187,7 @@
                                     <li>Custom domain name setup</li>
                                 </ul>
                                 <router-link
-                                    to="/services"
+                                    to="/contact"
                                     class="btn btn-outline-dark rounded-pill px-4 py-2 align-self-start"
                                     >I'M INTERESTED</router-link
                                 >
@@ -225,7 +225,7 @@
                                     <li>Custom domain name setup</li>
                                 </ul>
                                 <router-link
-                                    to="/services"
+                                    to="/contact"
                                     class="btn btn-outline-dark rounded-pill px-4 py-2 align-self-start"
                                     >I'M INTERESTED</router-link
                                 >
@@ -262,7 +262,7 @@
                                     <li>Domain name setup and email configuration</li>
                                 </ul>
                                 <router-link
-                                    to="/services"
+                                    to="/contact"
                                     class="btn btn-outline-dark rounded-pill px-4 py-2 align-self-start"
                                     >I'M INTERESTED</router-link
                                 >
@@ -327,7 +327,7 @@
         <div class="container text-center py-5">
             <img src="@/assets/images-optimized/question.svg" alt="web design" class="img-fluid callout-img">
             <p class="display-6 mb-4">Interested in working with us?</p>
-            <button class="btn btn-primary rounded-pill px-4 fs-4">Get in touch</button>
+            <router-link to="/contact" class="btn btn-primary rounded-pill px-4 fs-4">Get in touch</router-link>
         </div>
     </main>
 </template>
@@ -335,7 +335,7 @@
 <style scoped>
 #services-banner {
     min-height: 400px;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 218, 218, 0.8)), 
         url(@/assets/images-optimized/service-3.webp);
     background-size: cover;
     background-position: bottom;

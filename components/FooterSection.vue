@@ -25,10 +25,10 @@
           <div class="col-md-3">
             <h6 class="text-uppercase fw-semibold mb-3">Connect With Us</h6>
             <div class="d-flex gap-3">
-              <a href="#" class="text-dark fs-5"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="text-dark fs-5"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="text-dark fs-5"><i class="bi bi-twitter-x"></i></a>
-              <a href="#" class="text-dark fs-5"><i class="bi bi-linkedin"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=61550884656205" target="_blank" class="text-dark fs-5"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/impacthive_marketing/" target="_blank" class="text-dark fs-5"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.tiktok.com/@impacthivemarketing" target="_blank" class="text-dark fs-5"><i class="bi bi-tiktok"></i></a>
+              <a href="https://www.linkedin.com/company/impacthivemarketing/" target="_blank" class="text-dark fs-5"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
         </div>
