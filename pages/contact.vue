@@ -6,7 +6,7 @@
         <h1 class="fw-bold display-4">Contact Us</h1>
         <h3 class="fst-italic text-center">Reachout to us for a FREE consultation.</h3>
     </div>
-    <div class="bg-pinkish pb-5">
+    <div id="contact-section" class="bg-pinkish pb-5">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col col-md-6">
@@ -42,10 +42,10 @@ useHead({
 #contact-banner {
     min-height: 400px;
     background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 218, 218, 0.8)),
-        url(@/assets/images-optimized/about-1.webp);
+        url(@/assets/images-optimized/home-image-2.webp);
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-position: top;
+    /* background-attachment: fixed; */
 
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -59,5 +59,9 @@ useHead({
     transform: scale(1.03);
     transition: all 0.2s ease-in-out;
     background-color: #cfa9a9 !important;
+}
+
+#contact-section {
+    scroll-margin-top: 70px;
 }
 </style>

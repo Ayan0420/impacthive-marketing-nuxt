@@ -73,7 +73,7 @@
                                 <p class="card-text">
                                     Build a strong online presence with consistent, on-brand, and strategic content.
                                 </p>
-                                <router-link to="/services" class="btn btn-outline-dark rounded-pill px-4 py-2 align-self-start">I NEED THIS</router-link>
+                                <router-link :to="{path: '/services', hash: '#smm'}" class="btn btn-outline-dark rounded-pill px-4 py-2 align-self-start">I NEED THIS</router-link>
                             </div>  
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                                 <p class="card-text">
                                     For brands and businesses looking for professional, responsive, and conversion-focused websites tailored to your business goals.
                                 </p>
-                                <router-link to="/services" class="btn btn-outline-dark rounded-pill px-4 py-2 align-self-start">TELL ME HOW</router-link>
+                                <router-link :to="{path: '/services', hash: '#web-dev'}" class="btn btn-outline-dark rounded-pill px-4 py-2 align-self-start">TELL ME HOW</router-link>
                             </div>
                         </div>
                     </div>
@@ -125,7 +125,7 @@
         background-image: linear-gradient(to right, rgb(255, 255, 255), 70%, rgba(255, 255, 255, 0)), url(@/assets/images-optimized/banner1.webp);
         background-size: cover;
         background-position: center;
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
         padding-top: 5rem;
         padding-bottom: 5rem;
     }

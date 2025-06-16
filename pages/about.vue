@@ -73,10 +73,10 @@
     min-height: 400px;
     background-image: 
         linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 218, 218, 0.8)), 
-        url(@/assets/images-optimized/about-1.webp);
+        url(@/assets/images-optimized/home-image-4.webp);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     
     padding-top: 5rem;
     padding-bottom: 5rem;

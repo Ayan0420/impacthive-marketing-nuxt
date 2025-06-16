@@ -60,7 +60,7 @@ const generalFAQItems: FaqItem[] = [
     },
     {
         question: "How long does it take to design and launch a website?",
-        answer: "It depends on the package and the complexity of your project. Most websites are completed within 2 to 4 weeks after receiving all necessary content and approvals. We'll give you a clear timeline before we start.",
+        answer: "It depends on the package and the complexity of your project. Most websites are completed within 6 to 12 weeks after receiving all necessary content and approvals. We'll give you a clear timeline before we start.",
     },
     {
         question: "Do you offer ongoing support after the website is launched?",
@@ -110,7 +110,7 @@ const smmFAQItems: FaqItem[] = [
 const webDevFAQItems: FaqItem[] = [
     {
         question: "How long does it take to build a website?",
-        answer: "Timeframes vary by package, but most websites are completed within 2–4 weeks from project start. We’ll provide a clear timeline during onboarding.",
+        answer: "Timeframes vary by package, but most websites are completed within 6–12 weeks from project start. We’ll provide a clear timeline during onboarding.",
     },
     {
         question: "Will my website be mobile-friendly?",
@@ -137,7 +137,7 @@ const webDevFAQItems: FaqItem[] = [
         url(@/assets/images-optimized/about-1.webp);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 
     padding-top: 5rem;
     padding-bottom: 5rem;
